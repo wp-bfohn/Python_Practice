@@ -18,7 +18,8 @@ elif args.operation == "subtract":
 elif args.operation == "multiply":
     result=n1*n2
 elif args.operation == "divide":
-    result=n1%n2
-else: result="you entered an unsupported operation"
+    result=n1/n2
+else:
+    result="you entered an unsupported operation"
 
 print(result)
